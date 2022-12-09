@@ -5,7 +5,7 @@
  * Descripton: This program prints all alphabets
  * Return: it returns 0 at the end of the program
 */
-int main()
+int main(void)
 {
 char test;
 int num;
@@ -16,7 +16,7 @@ putchar(num + '0');
 for (test = 'a'; test <= 'f'; test++)
 {
 putchar(test);
-}   
-putchar('\n');  
+}
+putchar('\n');
 return (0);
 }
