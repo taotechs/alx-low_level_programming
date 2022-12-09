@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry
- * Description: checking number and printing out appropriate output
- * Return: Alway 0 whic denotes success
+ * main - driver code
+ * Description: generate output based on random number
+ * Return: 0 for success
 */
 int main(void)
 {
@@ -13,15 +13,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-	printf("%d is positive", n);
+	printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-	printf("%d is zero", n);
+	printf("%d is zero\n", n);
 }
 else
 {
-	printf("%d is negative", n);
+	printf("%d is negative\n", n);
 }
 return (0);
 }
