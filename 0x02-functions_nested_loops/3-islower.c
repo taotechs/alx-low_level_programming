@@ -4,7 +4,7 @@
  * Description: code checker
  * Return: islower valui
 */
-int _islower(char c)
+int _islower(int c)
 {
 int i = 'a';
 
