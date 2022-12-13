@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_x10 function
+ * print_alphabet_x10 - function
  * Description: print alphabets in lowercase x10
- * return void
+ * Return: void
 */
 void print_alphabet_x10(void)
 {
