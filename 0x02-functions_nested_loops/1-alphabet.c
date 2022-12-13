@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * print alphabets in lowercase
  * return void
@@ -12,14 +12,4 @@ void print_alphabet(void)
 		putchar(i);
 	}
 		putchar('\n');
-}
-/**
- * main - drivers code
- * Description: call the print_alphabets function
- * Return: 0 for success
-*/
-int main(void)
-{
-print_alphabet();
-return (0);
 }
