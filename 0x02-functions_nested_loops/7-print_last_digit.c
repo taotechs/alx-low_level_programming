@@ -1,13 +1,28 @@
-int print_last_digit(int num)
+#include "main.h"
+
 /**
- * print_last_digit - driver code
- * Description - prints last digit of a number
- * @num: is the parameter
- * Return: last digit
-*/
+   * print_last_digit - prints the last digit of a number
+    * @n: n is an integer
+     * Description: prints the last digit of a number
+      * Return: integer
+       */
+
+int print_last_digit(int n)
+
 {
-	
-	int last;
-last = num%10;
-return (last);
+
+	int last = n % 10;
+
+	if (n < 0)
+
+	{
+
+		last = last * -1;
+
+	}
+
+	_putchar(last + '0');
+
+	return (last);
+
 }
