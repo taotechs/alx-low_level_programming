@@ -1,5 +1,5 @@
 /**
- * 1-swap.c - swap values of pointers
+ * swap_int - swap values of pointers
  * @a: first pointer
  * @b: second pointer
  * Return: Nothing
