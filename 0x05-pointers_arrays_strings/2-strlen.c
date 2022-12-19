@@ -1,9 +1,9 @@
 /**
- * strlen - Return length of string entered
+ * _strlen - Return length of string entered
  * @s: string to be entered
- * retur: length ofthe string
+ * return: length ofthe string
 */
- int _strlen(char *s)
+int _strlen(char *s)
 {
 	int length = 0;
 
